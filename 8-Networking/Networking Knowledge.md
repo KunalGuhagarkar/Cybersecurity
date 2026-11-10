@@ -58,3 +58,39 @@ Network managers require standard policies and procedures to manage and monitor 
 
 - Internet Control Message Protocol (ICMP): Helps diagnose network connectivity issues. Network devices employ ICMP for sending error messages, highlighting congestion and timeouts, and transmitting other operational information to assist in network troubleshooting.
 
+### How do network protocols work?
+
+The most popular model, the Open Systems Interface (OSI), demonstrates how computer systems communicate over a network. This seven-layer model visualizes the communication process between two network devices across seven layers.
+
+### What are OSI model layers?
+
+1. Layer 1 - Physical Layer: The first layer enables physical connection between the two network devices. It facilitates data transmission in bits while managing bit rate control, cabling or wireless technology, voltage, and topography, among other things.
+
+2. Layer 2 - Data Link Layer: Two physically connected nodes on a network require a connection. The data link layer helps create  and terminate a connection by breaking up packets into frames and transmitting them from source to destination. This layer fixes problems generated due to damaged, duplicate, or lost frames.
+
+3. Layer 3 - Network Layer: This layer fulfills two primary functions. The first function consists of splitting up segments into network packets and putting the packets back together at the receiver’s end. The second ensures the transmission of packets across the physical network via the most optimal route.
+
+4. Layer 4 - Transport Layer: Data incoming in its raw state from the preceding layer is broken into “segments” and is reassembled on the receiving end at the transport layer. This layer manages the flow control by transmitting data to match the receiving device’s connection speed and monitors error control by ensuring that the received data is correct.
+
+5. Layer 5 - Session Layer: This layer establishes a communication channel called a session between the devices that want to exchange data. The session layer opens sessions and ensures they function effectively during data transmission and closes the respective sessions once the communication ends.
+
+6. Layer 6 - Presentation Layer: This layer arranges data for the application layer by ensuring the correct representation concerning information syntax and semantics. It also controls file-level security by defining how the connected devices should encrypt and compress data to provide accurate data transmission at the receiver’s end.
+
+7. Layer 7 - Application Layer: The top layer of the network, the application layer, is accessed by end-user software such as web browsers and email clients. Protocols at this layer allow applications to send and receive information and present easy-to-understand and relevant data to users.
+
+### How do network protocols function in each OSI model layer?
+
+- Layer 1: Physical Layer Protocols: These protocols provide an interface between devices and network medium.
+
+- Layer 2: Data Link Layer Protocols: The protocols operating at this level ensure the framing of packets while proactively identifying and rectifying packet transmission errors.
+
+- Layer 3: Network Layer Protocols: By leveraging the right set of network layer protocols, administrators route packets efficiently while managing the network flow and congestion to prevent network resource depletion.
+
+- Layer 4: Transport Layer Protocols: These protocols ensure reliable end-to-end packet delivery across networks in the right sequence at the receiving end.
+
+- Layer 5: Session Layer Protocols: Protocols at the session layer help manage dialogues and user sessions by seamlessly establishing and terminating sessions for communication exchange.
+
+- Layer 6: Presentation Layer Protocols: These protocols are necessary to encode and decode data to smoothly mask the variations in data formats across different systems.
+
+- Layer 7: Application Layer Protocols: These protocols help transform user requests to network-friendly formats.
+
