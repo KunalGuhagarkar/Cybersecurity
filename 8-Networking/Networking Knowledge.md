@@ -26,6 +26,8 @@ Communication protocols govern various aspects of analog and digital communicati
 
 - Hyper-Text Transfer Protocol (HTTP): Protocol which allows communication between a server and browser.
 
+![HTTP-Diagram](image.png)
+
 - Transmission Control Protocol (TCP): Connection Oriented Protocol that helps in sequential transmission of data packets to ensure data reaches the destination on time and without duplication.
 
 - Internet Protocol (IP): Facilitates routing the data packets across networks. IP contains addressing and control information to deliver packets across a network. It works along with TCP. While it ensures delivering the packets to the right address, TCP aligns them in the right order.
