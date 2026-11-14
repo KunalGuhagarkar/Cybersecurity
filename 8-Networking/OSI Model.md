@@ -18,11 +18,11 @@ The layers of the Open Systems Interconnection (OSI) model encapsulate every typ
 
 2. Faster Research and Developement
 
-    With the OSI reference model, engineers can understand their work better. They know which technological layer (or layers) they’re developing for when they create new, networked systems that need to communicate with each other. Engineers can develop networked systems and take advantage of a series of repeatable processes and protocols. 
+    With the OSI reference model, engineers can understand their work better. They know which technological layer (or layers) they’re developing for when they create new, networked systems that need to communicate with each other. Engineers can develop networked systems and take advantage of a series of repeatable processes and protocols.
 
 3. Flexible standardization
 
-    The OSI model does not specify the protocols to use between levels, but rather the tasks that protocols perform. It standardizes network communication development so people can rapidly understand, build, and decompose highly complex systems—all  without prior knowledge of the system. It also abstracts details, so engineers don’t require the understanding of every aspect of the model. In modern applications, the lower levels of networking and protocols are abstracted away to simplify system design and development. The following image shows how the OSI model is used in modern application development.
+    The OSI model does not specify the protocols to use between levels, but rather the tasks that protocols perform. It standardizes network communication development so people can rapidly understand, build, and decompose highly complex systems—all without prior knowledge of the system. It also abstracts details, so engineers don’t require the understanding of every aspect of the model. In modern applications, the lower levels of networking and protocols are abstracted away to simplify system design and development. The following image shows how the OSI model is used in modern application development.
 
 ![OSI Model Image](../assets/osi.png)
 
@@ -34,7 +34,7 @@ The layers of the Open Systems Interconnection (OSI) model encapsulate every typ
 
 2. Data Link Layer
 
-    The data link layer refers to the technologies used to connect two machines across a network where the physical layer already exists. It manages data frames, which are digital signals encapsulated into data packets. Flow control and error control of data are often key focuses of the data link layer. Ethernet is an example of a standard at this level. The data link layer is often split into two sub-layers: the Media Access Control (MAC) layer and Logical Link Control (LLC) layer. 
+    The data link layer refers to the technologies used to connect two machines across a network where the physical layer already exists. It manages data frames, which are digital signals encapsulated into data packets. Flow control and error control of data are often key focuses of the data link layer. Ethernet is an example of a standard at this level. The data link layer is often split into two sub-layers: the Media Access Control (MAC) layer and Logical Link Control (LLC) layer.
 
 3. Network Layer
 
@@ -50,7 +50,7 @@ The layers of the Open Systems Interconnection (OSI) model encapsulate every typ
 
 6. Presentation layer
 
-    The presentation layer is primarily concerned with the syntax of the data itself for applications to send and consume. For example, Hypertext Markup Language (HTML), JavaScipt Object Notation (JSON), and Comma Separated Values (CSV) are all modeling languages to describe the structure of data at the presentation layer. 
+    The presentation layer is primarily concerned with the syntax of the data itself for applications to send and consume. For example, Hypertext Markup Language (HTML), JavaScipt Object Notation (JSON), and Comma Separated Values (CSV) are all modeling languages to describe the structure of data at the presentation layer.
 
 7. Application layer
 
@@ -58,3 +58,16 @@ The layers of the Open Systems Interconnection (OSI) model encapsulate every typ
 
 Not all systems that use the OSI model implement every layer.
 
+## How does communication happen in the OSI model?
+
+By chaining together all these layers and protocols, complex data communications can be sent from one high-level application to another. The process works as follows:
+
+    1. The sender’s application layer passes data communication down to the next lower layer.
+
+    2. Each layer adds its own headers and addressing to the data before passing it on.
+
+    3. Data communication moves down the layers until it is eventually transmitted through the physical medium.
+
+    4. At the other end of the medium, each layer processes the data according to the relevant headers at that level.
+
+    5. At the receiver end, data moves up the layer and is gradually unpacked until the application at the other end receives it.
