@@ -71,3 +71,18 @@ By chaining together all these layers and protocols, complex data communications
     4. At the other end of the medium, each layer processes the data according to the relevant headers at that level.
 
     5. At the receiver end, data moves up the layer and is gradually unpacked until the application at the other end receives it.
+
+## Alternatives to OSI Model
+
+### The TCP/IP model
+
+The TCP/IP model is comprised of five different layers:
+
+    - The physical layer
+    - The data link layer
+    - The network layer
+    - The transport layer
+    - They application layer
+    - While layers like the physical layer, network layer, and application layer appear to map directly to the OSI model, this isn’t quite the case. Instead, the TCP/IP model most accurately maps to the structure and protocols of the internet.
+
+The OSI model remains a popular networking model to describe how networking operates from a holistic perspective for educational purposes. However, the TCP/IP model is now more commonly used in practice.
