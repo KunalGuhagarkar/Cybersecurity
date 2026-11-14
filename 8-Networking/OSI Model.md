@@ -24,7 +24,7 @@ The layers of the Open Systems Interconnection (OSI) model encapsulate every typ
 
     The OSI model does not specify the protocols to use between levels, but rather the tasks that protocols perform. It standardizes network communication development so people can rapidly understand, build, and decompose highly complex systems—all  without prior knowledge of the system. It also abstracts details, so engineers don’t require the understanding of every aspect of the model. In modern applications, the lower levels of networking and protocols are abstracted away to simplify system design and development. The following image shows how the OSI model is used in modern application development.
 
-![OSI Model Image](image.png)
+![OSI Model Image](../assets/osi.png)
 
 ## Seven Layers of OSI Model
 
