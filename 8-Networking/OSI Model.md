@@ -4,6 +4,8 @@
 
 **Reference:** [AWS – What is the OSI Model?](https://aws.amazon.com/what-is/osi-model/)
 
+**YouTube:** [What is OSI Model?](https://youtu.be/Ilk7UXzV_Qc?si=fswm40YlfCPf4t1k)
+
 ---
 
 ## Table of Contents
