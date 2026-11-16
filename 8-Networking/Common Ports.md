@@ -2,6 +2,8 @@
 
 **Source:** [14 common network ports you should know](https://opensource.com/article/18/10/common-network-ports) by Kedar Vijay Kulkarni, Opensource.com (Oct 4, 2018). Licensed [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
 
+**YouTube:** [Common Network Ports - CompTIA A+ 220-1101 - 2.1](https://www.youtube.com/watch?v=dh8h-4u7Wak)
+
 ---
 
 ## What is a port?
